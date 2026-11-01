@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guilherme Santos da Costa — AI Engineer</title>
+<meta name="description" content="Guilherme Santos da Costa, AI Engineer no Rio de Janeiro. RAG local em Go, avaliação de LLMs por métricas e backend Go/PostgreSQL.">
+<meta property="og:title" content="Guilherme Santos da Costa — AI Engineer">
+<meta property="og:description" content="RAG local em Go, avaliação de LLMs por métricas e backend Go/PostgreSQL.">
+<meta property="og:url" content="https://guilhermesc.me/">
+<meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --papel: #EEF2F0;
+    --tinta: #17302D;
+    --apoio: #566865;
+    --linha: #C6D1CE;
+    --azul: #1D5BB8;
+    --medida: 66ch;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: "Atkinson Hyperlegible Next", system-ui, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+  main {
+    max-width: calc(var(--medida) + 3rem);
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 4rem;
+  }
+  a { color: var(--azul); text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+  a:hover { text-decoration-thickness: 2px; }
+  a:focus-visible { outline: 2px solid var(--azul); outline-offset: 3px; border-radius: 2px; }
+
+  header p { margin: 0; color: var(--apoio); }
+  .nome { font-size: 1.125rem; font-weight: 600; color: var(--tinta); }
+  .contato { margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; }
+
+  h1 {
+    font-size: clamp(2.1rem, 6vw, 3.4rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin: 3.25rem 0 1rem;
+    max-width: 18ch;
+  }
+  .abertura { max-width: var(--medida); margin: 0 0 2rem; }
+
+  figure { margin: 0 0 3.5rem; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+  }
+  caption {
+    text-align: left;
+    color: var(--apoio);
+    font-size: 0.9375rem;
+    padding-bottom: 0.75rem;
+  }
+  th, td { padding: 0.7rem 0; border-bottom: 1px solid var(--linha); text-align: right; }
+  th:first-child, td:first-child { text-align: left; padding-right: 1rem; }
+  thead th { font-weight: 600; font-size: 0.9375rem; color: var(--apoio); border-bottom: 2px solid var(--tinta); }
+  tbody td { font-size: clamp(1.15rem, 3.2vw, 1.6rem); font-weight: 600; }
+  tbody td:first-child { font-size: 1rem; font-weight: 400; }
+  td.depois { color: var(--azul); font-weight: 800; }
+  figcaption { color: var(--apoio); font-size: 0.9375rem; margin-top: 0.75rem; max-width: var(--medida); }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    margin: 0 0 1.25rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--tinta);
+  }
+  section { margin-bottom: 3.25rem; }
+  .cargo { margin: 0 0 0.75rem; }
+  .cargo strong { font-weight: 600; }
+  .cargo span { color: var(--apoio); }
+  ul { margin: 0; padding-left: 1.1rem; max-width: var(--medida); }
+  li { margin-bottom: 0.6rem; }
+  li::marker { color: var(--apoio); }
+
+  .projeto { max-width: var(--medida); margin-bottom: 2rem; }
+  .projeto h3 { font-size: 1.1875rem; font-weight: 800; margin: 0 0 0.35rem; }
+  .projeto p { margin: 0 0 0.4rem; }
+  .projeto .pilha { color: var(--apoio); font-size: 0.9375rem; }
+
+  footer { color: var(--apoio); font-size: 0.9375rem; border-top: 1px solid var(--linha); padding-top: 1.25rem; }
+
+  @media (max-width: 520px) {
+    main { padding-top: 2.25rem; }
+    h1 { margin-top: 2.25rem; }
+    th, td { padding: 0.6rem 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="nome">Guilherme Santos da Costa</p>
+    <p>AI Engineer no Rio de Janeiro, RJ</p>
+    <p class="contato">
+      <a href="https://github.com/Guilherme-AVVO">GitHub</a>
+      <a href="https://linkedin.com/in/guilherme-santos-da-costa">LinkedIn</a>
+      <a href="mailto:guilhermesantos3828@gmail.com">guilhermesantos3828@gmail.com</a>
+    </p>
+  </header>
+
+  <h1>Antes de escolher um modelo, eu monto um gabarito.</h1>
+  <p class="abertura">Estudo Ciência da Computação na FIAP e trabalho na Metrol desde junho de 2026, onde construí um RAG que roda inteiro na infraestrutura da empresa e ajudo a desenvolver o ERP. Quando preciso escolher entre duas técnicas ou dois modelos, decido pelos números.</p>
+
+  <figure>
+    <table>
+      <caption>Busca do RAG da Metrol, medida num gabarito de 45 perguntas</caption>
+      <thead>
+        <tr><th scope="col">Métrica</th><th scope="col">Busca semântica</th><th scope="col">Contextual retrieval</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Recall@5</td><td>95%</td><td class="depois">100%</td></tr>
+        <tr><td>MRR</td><td>0,882</td><td class="depois">0,976</td></tr>
+        <tr><td>Respostas fora dos 5 primeiros</td><td>2</td><td class="depois">0</td></tr>
+      </tbody>
+    </table>
+    <figcaption>Nenhuma pergunta piorou com a troca. Para o modelo, testei 6 LLMs locais em 18 perguntas difíceis: o gemma4-12b acertou 16, o mesmo que um modelo de 35B, e coube numa GPU de 12 GB.</figcaption>
+  </figure>
+
+  <section aria-labelledby="trabalho">
+    <h2 id="trabalho">Trabalho</h2>
+    <p class="cargo"><strong>Metrol</strong>, Assistente de IA <span>desde jun/2026</span></p>
+    <ul>
+      <li>RAG local em Go com Ollama, pgvector e embeddings bge-m3, para consultar fichas técnicas e manuais sem enviar documentos para a nuvem. A etapa que transforma PDF em texto marca seção e página de cada trecho, para a resposta dizer de onde tirou a informação.</li>
+      <li>No ERP, 15 domínios de negócio com Go (Gin, pgx), PostgreSQL 17, React 19 e TypeScript.</li>
+      <li>Tirei o login de dentro do módulo de RH e escrevi um serviço próprio em Go, com MFA por app autenticador, códigos de recuperação, bloqueio por conta e por IP e proteção contra CSRF. São 88 testes em Go e 3 testes ponta a ponta com Playwright.</li>
+      <li>Controle de acesso com 5 perfis, JWT e Argon2id, e auditoria das 63 rotas da API atrás de IDOR, injection, mass assignment e CORS mal configurado.</li>
+      <li>Integração com a API da Sólides/Tangerino para registro de ponto com geolocalização e foto. Deploys com Docker, Nginx e Coolify.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="projetos">
+    <h2 id="projetos">Projetos</h2>
+
+    <div class="projeto">
+      <h3><a href="https://github.com/Guilherme-AVVO/mini-rag">mini-rag</a></h3>
+      <p>O RAG da empresa não pode ser público, então publiquei uma versão com documentos fictícios e gabarito próprio de 23 perguntas. Um comando calcula Recall@k e MRR sozinho, e o CI confere formatação, go vet e os testes.</p>
+      <p class="pilha">Go, PostgreSQL com pgvector, Ollama</p>
+    </div>
+
+    <div class="projeto">
+      <h3><a href="https://stockroute.guilhermesc.me">StockRoute</a></h3>
+      <p>Em muitos estoques o separador recebe o pedido em PDF impresso e risca os itens à caneta, e um item esquecido não deixa rastro. O sistema lê o PDF, liga os itens ao catálogo e exige uma foto em cada coleta, então dá para saber quem separou cada item e quando. <a href="https://github.com/Guilherme-AVVO/StockRoute">Código no GitHub</a>.</p>
+      <p class="pilha">Node.js, Express, PostgreSQL, React</p>
+    </div>
+
+    <div class="projeto">
+      <h3><a href="https://github.com/Guilherme-AVVO/b550m-soyo-argb">soyo-argb</a></h3>
+      <p>O fabricante da minha placa-mãe só oferece o controle de LEDs para Windows. Fiz a engenharia reversa do aplicativo com ajuda de agentes de IA e reescrevi o protocolo USB em Rust; agora controlo os LEDs no Linux pela linha de comando, por uma janela ou por um serviço do systemd.</p>
+      <p class="pilha">Rust, USB HID, systemd</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="formacao">
+    <h2 id="formacao">Formação</h2>
+    <ul>
+      <li>Bacharelado em Ciência da Computação, FIAP, 2026 a 2030 (previsão)</li>
+      <li>Qualificação Profissional em Programador Back-End, SENAI Jacarepaguá</li>
+      <li>Qualificação Profissional em Programador Front-End, SENAI</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Para falar comigo: <a href="mailto:guilhermesantos3828@gmail.com">guilhermesantos3828@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
